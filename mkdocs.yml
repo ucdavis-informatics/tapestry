@@ -1,0 +1,27 @@
+site_name: TAPESTRY - Temporal Analytics Platform for Exploratory Scientific and Translational Research inquirY
+site_url: https://repos.ri.ucdavis.edu/docs/tapestry/site
+site_description: Project documentation generated with love - powered by markdown and MkDocs
+site_author: Bill Riedl
+
+repo_url: https://hc2-gitlab.ucdmc.ucdavis.edu/ri/pytdap/ucd-ri-pytdap
+edit_uri: ""
+
+theme:
+    name: readthedocs
+    locale: en
+
+nav:
+    - Home: index.md
+    - Data: data.md
+    - Installation and Execution: run.md
+
+plugins:
+    - search
+    - mkdocstrings
+
+extra_javascript:
+    - https://unpkg.com/mermaid/dist/mermaid.min.js
+
+
+markdown_extensions:
+  - attr_list
